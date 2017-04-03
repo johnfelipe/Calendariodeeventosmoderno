@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Modern Events Calendar\n"
-"POT-Creation-Date: 2017-03-17 07:30-0500\n"
-"PO-Revision-Date: 2017-03-17 07:30-0500\n"
+"POT-Creation-Date: 2017-04-03 16:21-0500\n"
+"PO-Revision-Date: 2017-04-03 16:27-0500\n"
 "Last-Translator: Howard <howard@realtyna.com>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.0\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: mec.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -67,7 +67,7 @@ msgstr "%s eventos de facebook importados / actualizados."
 msgid "All of Client App, Client Secret and Calendar ID are required!"
 msgstr ""
 "Todas las aplicaciones de cliente, secreto de cliente y ID de calendario son "
-"obligatorios."
+"obligatorios!"
 
 #: app/crons/g-export.php:234 app/features/ix.php:965
 #, php-format
@@ -90,7 +90,7 @@ msgstr "¡La importación automática de Google Calendar está deshabilitada!"
 
 #: app/crons/g-import.php:37 app/features/ix.php:186 app/features/ix.php:240
 msgid "Both of API key and Calendar ID are required!"
-msgstr "Tanto la clave de API como la ID de Calendario son necesarias."
+msgstr "Tanto la clave de API como la ID de Calendario son necesarias!"
 
 #: app/crons/g-import.php:340
 #, php-format
@@ -113,7 +113,7 @@ msgstr "Nueva reserva"
 
 #: app/features/books.php:90
 msgid "No bookings found!"
-msgstr "No hay reservas"
+msgstr "No hay reservas!"
 
 #: app/features/books.php:92
 msgid "Edit Bookings"
@@ -121,7 +121,7 @@ msgstr "Editar reserva"
 
 #: app/features/books.php:93
 msgid "No bookings found in Trash!"
-msgstr "No hay reservas en la papelera"
+msgstr "No hay reservas en la papelera!"
 
 #: app/features/books.php:130
 msgid "Book Details"
@@ -293,7 +293,7 @@ msgstr "Aun falta la seguridad."
 
 #: app/features/books.php:719
 msgid "Security nonce is invalid."
-msgstr "Aun es invalida la seguridad"
+msgstr "Aun es invalida la seguridad."
 
 #: app/features/books.php:727
 msgid "Invalid request."
@@ -455,7 +455,7 @@ msgstr "Añadir nuevo evento"
 #: app/features/events.php:113 app/features/ix.php:1027
 #: app/skins/map/tpl.php:55
 msgid "No events found!"
-msgstr "No hay eventos"
+msgstr "No hay eventos!"
 
 #: app/features/events.php:114
 msgid "All Events"
@@ -471,7 +471,7 @@ msgstr "Ver evento"
 
 #: app/features/events.php:117
 msgid "No events found in Trash!"
-msgstr "No hay eventos en la papelera"
+msgstr "No hay eventos en la papelera!"
 
 #: app/features/events.php:133 app/features/fes/form.php:494
 #: app/features/mec.php:165 app/features/mec/meta_boxes/filter.php:63
@@ -715,7 +715,7 @@ msgstr "Desde 8:15"
 
 #: app/features/events.php:539 app/features/events.php:551
 msgid "To e.g. 8:45"
-msgstr "a  8:45"
+msgstr "Por ejempolo a  8:45"
 
 #: app/features/events.php:540 app/features/events.php:552
 #: app/features/events.php:1226 app/features/events.php:1386
@@ -890,7 +890,7 @@ msgstr "Autor"
 
 #: app/features/events.php:1321 app/features/events.php:1322
 msgid "iCal Export"
-msgstr "Exportar iCal"
+msgstr "exportar iCal"
 
 #: app/features/events.php:1330 app/features/events.php:1331
 msgid "XML Export"
@@ -1287,7 +1287,7 @@ msgstr "Por favor, seleccione algunos eventos para importar!"
 msgid "All of Client ID, Client Secret and Calendar ID are required!"
 msgstr ""
 "Todos los ID de cliente, secreto de cliente e ID de calendario son "
-"necesarios."
+"necesarios!"
 
 #: app/features/ix.php:716
 #, php-format
@@ -1304,19 +1304,19 @@ msgstr "MEC Importar / Exportar"
 #: app/features/ix/import_f_calendar.php:10
 #: app/features/ix/import_g_calendar.php:10 app/features/ix/sync.php:10
 msgid "Google Cal. Import"
-msgstr "Importar Google Cal."
+msgstr "Importar Google Cal"
 
 #: app/features/ix/export.php:11 app/features/ix/export_g_calendar.php:15
 #: app/features/ix/import_f_calendar.php:11
 #: app/features/ix/import_g_calendar.php:11 app/features/ix/sync.php:11
 msgid "Google Cal. Export"
-msgstr "Exportar Google Cal."
+msgstr "Exportar Google Cal"
 
 #: app/features/ix/export.php:12 app/features/ix/export_g_calendar.php:16
 #: app/features/ix/import_f_calendar.php:12
 #: app/features/ix/import_g_calendar.php:12 app/features/ix/sync.php:12
 msgid "Facebook Cal. Import"
-msgstr "Importar Facebook Cal."
+msgstr "Importar Facebook Cal"
 
 #: app/features/ix/export.php:13 app/features/ix/export_g_calendar.php:17
 #: app/features/ix/import_f_calendar.php:13
@@ -1721,7 +1721,7 @@ msgstr "Longitud"
 
 #: app/features/locations.php:114 app/features/locations.php:148
 msgid "Geo longitude (Optional)"
-msgstr "Geo longitud"
+msgstr "Geo longitud (Opcional)"
 
 #: app/features/locations.php:119 app/features/locations.php:151
 #: app/features/organizers.php:119 app/features/organizers.php:151
@@ -1816,7 +1816,7 @@ msgstr "Añadir nuevo Shortcode"
 
 #: app/features/mec.php:187
 msgid "No shortcodes found!"
-msgstr "No hay shortcodes"
+msgstr "No hay shortcodes!"
 
 #: app/features/mec.php:188
 msgid "All Shortcodes"
@@ -1828,7 +1828,7 @@ msgstr "Editar Shortcodes"
 
 #: app/features/mec.php:190
 msgid "No shortcodes found in Trash!"
-msgstr "No hay shortcodes en la papelera"
+msgstr "No hay shortcodes en la papelera!"
 
 #: app/features/mec.php:237
 msgid "Display Options"
@@ -2245,7 +2245,7 @@ msgstr "Botones Siguiente/Anterior"
 #: app/features/mec/meta_boxes/display_options.php:410
 #: app/features/mec/meta_boxes/display_options.php:443
 msgid "For showing next/previous month navigation."
-msgstr "Para mostrar navegación siguiente/anterior"
+msgstr "Para mostrar navegación siguiente/anterior mes."
 
 #: app/features/mec/meta_boxes/display_options.php:374
 msgid "Maximum events"
@@ -2298,7 +2298,7 @@ msgstr "Los valores predeterminados son j, F e Y"
 
 #: app/features/mec/meta_boxes/display_options.php:516
 msgid " -- Next Upcoming Event -- "
-msgstr " -- Siguientes Eventos Próximos -- "
+msgstr "--Próximo evento-- "
 
 #: app/features/mec/meta_boxes/display_options.php:523
 msgid "Background Color"
@@ -3451,7 +3451,7 @@ msgstr "Precio de tickets"
 
 #: app/libraries/factory.php:130
 msgid "M.E. Calendar"
-msgstr "Calendario M.E."
+msgstr "Calendario Moderno"
 
 #: app/libraries/factory.php:177
 msgctxt "plugin link"
@@ -3628,7 +3628,7 @@ msgstr "La seguridad no es válida."
 
 #: app/libraries/main.php:1417
 msgid "iCal export stopped!"
-msgstr "La exportación de iCal se detuvo!"
+msgstr "la exportación de iCal se detuvo!"
 
 #: app/libraries/main.php:1628 app/libraries/main.php:1657
 #: app/libraries/main.php:1686 app/libraries/main.php:1715
@@ -3654,7 +3654,7 @@ msgstr "Introduzca una etiqueta para este campo"
 
 #: app/libraries/main.php:1750
 msgid "HTML and shortcode are allowed."
-msgstr "Se permite HTML"
+msgstr "Se permite HTML y codigos cortos."
 
 #: app/libraries/main.php:1793 app/libraries/main.php:1837
 #: app/libraries/main.php:1881
@@ -3681,7 +3681,7 @@ msgstr "%s reservado %s evento."
 
 #: app/libraries/notifications.php:52 app/libraries/notifications.php:95
 msgid "Please verify your email."
-msgstr "Por favor comprueba tu email"
+msgstr "Por favor comprueba tu email."
 
 #: app/libraries/notifications.php:160
 msgid "Your booking is confirmed."
@@ -3865,7 +3865,7 @@ msgstr "Sin eventos"
 
 #: app/skins/single/default.php:45 app/skins/single/modern.php:234
 msgid "Tags: "
-msgstr "Tags:"
+msgstr "Tags: "
 
 #: app/skins/single/default.php:106 app/skins/single/modern.php:103
 msgid "Read More"
@@ -3902,7 +3902,7 @@ msgstr "Shortcode:"
 
 #: app/widgets/MEC.php:80
 msgid "Create some calendars first."
-msgstr "Crea algunos calendario primero"
+msgstr "Crea algunos calendario primero."
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
